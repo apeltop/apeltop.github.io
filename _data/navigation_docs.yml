@@ -1,0 +1,45 @@
+- title: Selenium 복권 구매 자동화 만들어보기
+  docs:
+    - lotto-automation/2022-05-16-1
+    - lotto-automation/2022-05-16-2
+    - lotto-automation/2022-05-16-3
+    - lotto-automation/2022-05-16-4
+    - lotto-automation/2022-05-16-5
+
+
+- title: Getting Started
+  docs:
+  - installation
+  - setup
+  - navigation
+  - footer
+  - posts
+  - docs
+  - comments
+  - analytics
+
+- title: Theme Features
+  docs:
+  - hero
+  - boxes
+  - featured
+  - videos
+  - faq
+  - team
+  - cta
+  - changelog
+  - contact
+  - media
+  - toc
+  - alerts
+
+- title: Customization
+  docs:
+  - translation
+  - customize
+  - development
+  - sources
+
+- title: Help
+  docs:
+  - support
