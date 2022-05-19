@@ -78,12 +78,12 @@ social:
 share:
     post:           true # Display share buttons on a post page
     doc:            true # Display share buttons on a doc page
-    twitter:        username # Enable by adding Twitter handle
-    facebook:       true # Enable by setting true (Facebook handle not required)
+#    twitter:        username # Enable by adding Twitter handle
+#    facebook:       true # Enable by setting true (Facebook handle not required)
 
 # Default footer image settings
 footer:
-    copyright:      Made by <a href="https://unbound.studio/">Unbound Studio</a> in Cleveland.
+    copyright:      Made by apeltop.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:
