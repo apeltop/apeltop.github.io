@@ -26,6 +26,7 @@ group :jekyll_plugins do
    gem 'jekyll-livereload'
    gem 'jekyll-avatar'
    gem "jekyll", "~> 3.9"
+   gem 'jekyll-sitemap'
    gem "kramdown-parser-gfm", "~> 1.1"
    gem 'webrick'
 end
