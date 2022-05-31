@@ -1,10 +1,10 @@
 - title: Selenium 복권 구매 자동화 만들어보기
   docs:
-    - lotto-automation/2022-05-16-1
-    - lotto-automation/2022-05-16-2
-    - lotto-automation/2022-05-16-3
-    - lotto-automation/2022-05-16-4
-    - lotto-automation/2022-05-16-5
+    - lotto-automation/2022-05-16-1-open-browser
+    - lotto-automation/2022-05-16-2-close-popup
+    - lotto-automation/2022-05-16-3-login
+    - lotto-automation/2022-05-16-4-buy-lotto
+    - lotto-automation/2022-05-16-5-refactoring
 
 
 - title: Getting Started

@@ -11,7 +11,6 @@ tags: selenium
 이를 방지하기 위해서는 함수로 만들어 함수 이름으로 유추하게 하던지 아니면 주석을 달면 됩니다. 
 때에 따라서 정답은 달리지지만 오늘은 함수로 기능을 묶어 맨 하단에 함수 이름을 통해 어떠한 기능을 수행하는지 알 수 있게되면 성공입니다.
 
-
 아래 코드는 클릭을 하기는 하는데 저 xpath 가 무엇을 의미하는지 알기가 쉽지 않습니다.
 ```
 click(driver.find_element(By.XPATH, '/html/body/div[1]/header/div[2]/div[2]/form/div/ul/li[1]/a'))
