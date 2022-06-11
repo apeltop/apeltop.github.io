@@ -6,6 +6,9 @@
     - lotto-automation/2022-05-16-4-buy-lotto
     - lotto-automation/2022-05-16-5-refactoring
 
+- title: 디자인 패턴
+  docs:
+    - design-pattern/mvc
 
 - title: Getting Started
   docs:
