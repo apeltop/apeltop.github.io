@@ -10,7 +10,7 @@ Optionally, if you have a Disqus account, you can tell Jekyll to use it to show 
 
 ```yaml
 disqus:
-    shortname: disqus_TTzAw2Ubfh
+    shortname: apeltop
 ```
 
 You can find out more about Disqus' shortnames [here](https://help.disqus.com/customer/portal/articles/466208).
