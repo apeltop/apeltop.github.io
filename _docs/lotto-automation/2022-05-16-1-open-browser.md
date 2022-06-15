@@ -4,6 +4,7 @@ layout: doc
 subtitle: 환경 설정 후 구글 브라우저 띄우기
 author: sunshine@ptokos.com
 tags: selenium
+comments: true
 ---
 
 프로젝트 선정 이유
