@@ -9,3 +9,4 @@
 - title: 디자인 패턴
   docs:
     - design-pattern/mvc
+    - design-pattern/strategy
