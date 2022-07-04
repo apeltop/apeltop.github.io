@@ -60,5 +60,89 @@ tags: [math]
 1. $p$ 이면 $q$ 이고, $q$ 이면 $p$ 이다.
 2. $p$ 는 $q$ 의 필요충분조건이다.
 
+## 항진 명제 (tautology)
+> 합성 명제에서 그 명제를 구성하는 단순 명제들의 진리값에 관계없이 그 합성 명제의 진리 값이 항상 참의 값을 가지는 명제를 의미한다.
+
+## 모순 명제 (contradiction)
+> 합성 명제에서 그 명제를 구성하는 단순 명제들의 진리값에 관계없이 그 합성 명제의 진리 값이 항상 거짓을 가지는 명제를 의미한다.
+
+## 논리적 동치 (logical equivalence)
+> 두 개의 명제 $p,q$ 의 쌍방 조건 $p \leftrightarrow q$ 가 항진 명제이면,
+> 두 명제 $p,q$ 는 논리적 동치라고 하고, $p \equiv q$ 또는 $p \Leftrightarrow q $ 라고 표시한다.
+> 즉 명제 $p$와 $q$는 같은 논리값을 가진다는 의미이다.
+
+## 논리적 동치 관계의 기본 법칙
+### 멱등 법칙 (idempotent law)
+$p \vee p \Leftrightarrow p $
+
+$p \wedge p \Leftrightarrow p $
+
+### 항등 법칙 (identity law)
+$p \vee T \Leftrightarrow T $
+
+$p \vee F \Leftrightarrow p $
+
+$p \wedge T \Leftrightarrow p $
+
+$p \wedge F \Leftrightarrow F $
+
+### 부정 법칙 (negation law)
+$ \sim T \Leftrightarrow F $
+
+$ \sim F \Leftrightarrow T $
+
+$p \vee (\sim p) \Leftrightarrow T $
+
+$p \wedge (\sim p) \Leftrightarrow F $
+
+### 이중 부정 법칙 (double negation law)
+$ \sim(\sim p) \Leftrightarrow p$
+
+### 교환 법칙 (commutative law)
+$ p \vee q \Leftrightarrow q \vee p$
+
+$ p \wedge q \Leftrightarrow q \wedge p $
+
+$ p \leftrightarrow q \Leftrightarrow q \leftrightarrow p $
+
+### 결합 법칙 (associative law)
+$(p \vee q) \vee r \Leftrightarrow p \vee (q \vee r) $
+
+
+$(p \wedge q) \wedge r \Leftrightarrow p \wedge (q \wedge r) $
+
+### 분배 법칙 (distributive law)
+$ p \vee (q \wedge r) \Leftrightarrow (p \vee q) \wedge (p \vee r) $
+
+$ p \wedge (q \vee r) \Leftrightarrow (p \wedge q) \vee (p \wedge r) $
+
+### 흡수 법칙 (absorption law)
+$ p \vee (p \wedge q) \Leftrightarrow p $
+
+$ p \wedge (p \vee q) \Leftrightarrow p $
+
+### 드 모르간 법칙 (De Morgan's law)
+$ \sim(p \vee q) \Leftrightarrow (\sim p) \wedge (\sim q) $
+
+$ \sim(p \wedge q) \Leftrightarrow (\sim p) \vee (\sim q) $
+
+### 조건 법칙
+$ p \to q \Leftrightarrow \sim p \vee q $
+
+### 대우 법칙
+$ p \to q \Leftrightarrow \sim q \to \sim p $
+
+## 추론 (argument)
+> 주어진 명제가 참인 것을 바탕으로 새로운 명제가 참이 되는 것을 유도해내는 방법
+> 전제를 $p_1 \dotsm p_N$ 이라고 하고 결론을 $q$ 라고 할 때 추론에 대한 것을 수학적 식으로 표시하면 $p_1,p_2,\dotsc , p_n \vdash q$ 라고 표시한다.
+
+### 유효 추론 (valid argument)
+> 주어진 전제가 참이고 결론도 참인 추론
+
+### 허위 추론 (fallacious argument)
+> 주어진 전제가 참이고 결론이 거짓인 추론
+
+
+
 
 
