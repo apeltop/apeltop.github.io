@@ -10,3 +10,7 @@
   docs:
     - design-pattern/mvc
     - design-pattern/strategy
+
+- title: 이산 수학
+  docs:
+    - discrete-mathematics/logic-proposition
