@@ -151,5 +151,5 @@ load_paths:
   - node_modules
 
 destination:      ./_site
-incremental:      true
-regenerate:       true
+incremental:      false
+regenerate:       false
