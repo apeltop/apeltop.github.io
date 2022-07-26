@@ -1,0 +1,34 @@
+# Changelog page source
+
+- title: 크레파스
+  label: 정규직
+  date: 2022년 1월 ~ 현재
+  list:
+  - 마이메모리 서비스 디자인, 개발 담당 (expressJS, expo(react-native), typescript, mongoDB, github, Google Cloud
+
+- title: 지디소프트
+  label: 프리랜서
+  date: 2021년 4월 ~ 2022년 1월
+  list:
+  - 알뜰폰허브 고도화 및 주문 관련 API 개발
+  - 서울대 출신 연구팀과 함께 진행한 특수유형 부가통신사업자 대상 채증 시스템에서 크롤링 시스템 개발
+
+- title: KDT 프로그래머스 인공지능 코스
+  label: 교육
+  date: 2020년 11월 ~ 2021년 4월
+  list:
+  - 이미지 처리, 자연어 처리 등 인공지능 전반적인 학습
+
+- title: designmeAI
+  label: 정규직
+  date: 2018년 11월 - 2019년 11월
+  list:
+  - UWP, CosmosDB 등 azure 서비스 사용하여 마감일이 없는 일정부터 구체화 된 일정까지 작성 및 공유할 수 있는 서비스 개발
+
+- title: 인포보스
+  label: 정규직
+  date: 2018년 1월 - 2018년 8월
+  list:
+    - 국립생물자원관 국가생물종목록 서비스를 전자정부프레임워크 사용하여 고도화 및 운영
+    - 사내에서 생물을 관찰 및 연구할 때 필요한 온도, 습도 데이터 수집 & 대쉬보드 개발
+    - 생물 연구에 필요한 여러 소개 사이트 퍼블리싱
