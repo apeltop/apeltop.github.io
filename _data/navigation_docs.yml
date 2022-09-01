@@ -10,3 +10,7 @@
   docs:
     - design-pattern/mvc
     - design-pattern/strategy
+
+- title: 책 리뷰
+  docs:
+    - book-review/the-art-of-readable-code
