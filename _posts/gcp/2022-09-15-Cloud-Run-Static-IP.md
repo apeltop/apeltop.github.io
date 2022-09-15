@@ -3,7 +3,7 @@ title: Cloud Run Outbound IP 고정하기
 author: sunshine@ptokos.com
 categories: [GCP]
 ---
-
+![Alt text](/assets/img/gcp/cloud-run-static-ip/2.png)
 
 Cloud Run 은 Serverless 로서 동적 IP 이다. 계속해서 inbound, outbound IP 가 달라지게 된다.
 이러한 특성은 여러 문제를 야기한다. Cloud Run 에서 DB 를 연결한다면 DB 는 Allow IP 를 특정할 수 없게 된다.
