@@ -5,7 +5,7 @@ categories: [GCP]
 ---
 ![Alt text](/assets/img/gcp/cloud-run-static-ip/2.png)
 
-Cloud Run 은 Serverless 로서 동적 IP 이다. 계속해서 inbound, outbound IP 가 달라지게 된다.
+Cloud Run 은 Serverless 로서 동적 IP 를 사용한다. 즉 계속해서 inbound, outbound IP 가 달라지게 된다.
 이러한 특성은 여러 문제를 야기한다. Cloud Run 에서 DB 를 연결한다면 DB 는 Allow IP 를 특정할 수 없게 된다.
 필자의 경우 서비스에서 문자 발송 API 를 사용하는데 문자 발송 API 는 사전에 등록된 IP 에서 요청이 들어와야 발송을 해주었다.
 어쩔 수 없이 Cloud Run 를 사용하지 못하고 App Engine 을 사용했다. 계속해서 Cloud Run 으로 변경하고 싶은 마음이 들어 문자 발송만 App Engine 에 올려놓고 사용할까 싶었다.
