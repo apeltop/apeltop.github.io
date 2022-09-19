@@ -10,6 +10,7 @@
   docs:
     - design-pattern/mvc
     - design-pattern/strategy
+    - design-pattern/factory-method
 
 - title: 책 리뷰
   docs:
