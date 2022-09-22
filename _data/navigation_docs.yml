@@ -11,6 +11,7 @@
     - design-pattern/mvc
     - design-pattern/strategy
     - design-pattern/factory-method
+    - design-pattern/prototype
 
 - title: 책 리뷰
   docs:
