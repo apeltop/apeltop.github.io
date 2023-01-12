@@ -6,6 +6,18 @@
   list:
   - 마이메모리 서비스 디자인, 개발 담당 (expressJS, expo(react-native), typescript, mongoDB, github, Google Cloud
 
+- title: 캐치 플랫폼에서 코드 리뷰 진행
+  label: 강의
+  date: 2022년 12월 15일
+  list:
+    - https://www.catch.co.kr/CatchClass/Live/View/5648
+
+- title: 부스트캠프 7기 백엔드 리뷰어
+  label: 리뷰어
+  date: 2022년 9월 ~ 2022년 10월
+  list:
+    - 캠퍼(수강생) 백엔드 코드 리뷰
+
 - title: 지디소프트
   label: 프리랜서
   date: 2021년 4월 ~ 2022년 1월
