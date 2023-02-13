@@ -15,6 +15,7 @@
     - design-pattern/observer
     - design-pattern/decorator
     - design-pattern/singleton
+    - design-pattern/command
 
 - title: 책 리뷰
   docs:
