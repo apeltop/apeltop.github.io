@@ -52,7 +52,7 @@ Error: ffmpeg was killed with signal SIGSEGV
 ![1.png](/assets/img/gcp/Cloud-Function-ffmpeg-troubleshooting/1.png)
 
 사실 이 에러로 정말 한 10시간은 보낸 것 같다. 
-Cloud Function 2세대를 사용해서 그런가해서 1세대로 테스트하고 비동기처리 도중에 서버 리소스가 반환이 되나 싶어 여러 테스트를 진행하는 등 꽤 갈피를 못잡고 해맸다.
+Cloud Function 2세대를 사용해서 그런가해서 1세대로 테스트하고 비동기처리 도중에 서버 리소스가 반환이 되나 싶어 여러 테스트를 진행하는 등 꽤 갈피를 못잡고 헤맸다.
 
 ### 해결 작업
 #### Cloud Function Node Version 변경
