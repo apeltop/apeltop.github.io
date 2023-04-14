@@ -12,7 +12,8 @@
     "dev": "npm run lint && npm run concat",
     "build": "npm run lint && npm run uglify",
     "watch": "watch 'npm run dev' assets/js",
-    "postinstall": "npm run copy && npm run concat"
+    "postinstall": "npm run copy && npm run concat",
+    "start": "bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",
