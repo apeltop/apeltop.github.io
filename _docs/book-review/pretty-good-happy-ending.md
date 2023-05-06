@@ -4,6 +4,7 @@ layout: doc
 subtitle: 나긋하지 못한 일을 나긋하게 이야기를 풀어가는 책 
 author: sunshine@ptokos.com
 tags: [novel, book-review]
+date: 2023-05-06
 ---
 
 ## 꽤 괜찮은 해피엔딩
