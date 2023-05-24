@@ -71,6 +71,31 @@ async def user_list():
 
 /docs 로 접근하여 확인한다.
 
+일부 데이터
+```json
+{
+  "users": [
+    {
+      "user_id": "5a236979-8c05-4fb6-a402-aaa4b78f5719",
+      "name": "William White",
+      "email": "christie12@example.com",
+      "image_url": "https://dummyimage.com/488x71",
+      "register_date": "2023-05-20T03:50:48"
+    },
+    {
+      "user_id": "92a8152b-6889-4fc9-b89a-57956fa5103a",
+      "name": "Kevin Smith",
+      "email": "iharrington@example.com",
+      "image_url": "https://dummyimage.com/450x830",
+      "register_date": "2023-05-04T23:09:51"
+    }
+    
+    ...
+    
+    ]
+}
+```
+
 ![6-1.png](/assets/img/dbdt/6-1.png)
 
 ![6-2.png](/assets/img/dbdt/6-2.png)
