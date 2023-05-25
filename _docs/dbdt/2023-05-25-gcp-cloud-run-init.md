@@ -21,6 +21,30 @@ Cloud Run 은 Docker Image 를 사용하기 때문에 어떤 언어로든 서버
 
 
 ## Cloud Run 환경 구축하기
+### Service Account 생성
+Cloud Run 을 만들 때 첨부한 사진과 같이 기본 값으로 Compute Engine default serivce account 이다.
+이 service account 로도 만들 수 있지만 좋은 습관은 아니다. 구글에서도 이를 권장하지는 않는다.
+최소한의 권한만 가진 service account 를 만들어서 사용하는 것이 좋다.
+
+[Service accounts](https://cloud.google.com/run/docs/configuring/service-accounts)
+
+[Service identity](https://cloud.google.com/run/docs/securing/service-identity)
+
+![9-8.png](/assets/img/dbdt/9-8.png)
+
+#### 새로운 Service account 만들기
+IAM & Admin > Service accounts > Create service account 
+
+![9-9.png](/assets/img/dbdt/9-9.png)
+
+여기서 Create service account 를 클릭해준다.
+
+![9-10.png](/assets/img/dbdt/9-10.png)
+
+Service account 를 cloud-run-server 로 만들어준다.
+
+![9-11.png](/assets/img/dbdt/9-11.png)
+
 ### Test Image 설정
 Container 를 사용해 운영되기 때문에 Image 를 사용해야한다.
 그런데 우선 Cloud Run 환경을 구축하기 위해 테스트 이미지를 사용하려한다.
@@ -88,29 +112,10 @@ Cloud Run 은 1세대와 2세대가 있다.
 ![9-7.png](/assets/img/dbdt/9-7.png)
 
 ### Security
-Security 에서는 Service account 를 설정할 수 있다.
-기본 값으로 첨부한 사진과 같이 Compute Engine default serivce account 이다.
-이 service account 로도 만들 수 있지만 좋은 습관은 아니다. 구글에서도 이를 권장하지는 않는다.
-최소한의 권한만 가진 service account 를 만들어서 사용하는 것이 좋다.
+Service account 를 만들었던 cloud-run-server 를 선택해준다.
 
-[Service accounts](https://cloud.google.com/run/docs/configuring/service-accounts)
+![9-8.png](/assets/img/dbdt/9-15.png)
 
-[Service identity](https://cloud.google.com/run/docs/securing/service-identity)
-
-![9-8.png](/assets/img/dbdt/9-8.png)
-
-#### 새로운 Service account 만들기
-_CREATE NEW SERVICE ACCOUNT_ 를 클릭한다.
-
-![9-9.png](/assets/img/dbdt/9-9.png)
-
-cloud-run-client 이름으로 만들었다. 당연히 이름은 자유롭게 만들어도 된다.
-
-![9-10.png](/assets/img/dbdt/9-10.png)
-
-다시 돌아와 Service account 를 cloud-run-client 를 선택한다.
-
-![9-11.png](/assets/img/dbdt/9-11.png)
 
 ### Cloud Run 확인하기
 Cloud Run 을 확인하면 다음과 같이 생성된 것을 확인할 수 있다.
