@@ -40,3 +40,5 @@
     - dbdt/2023-05-26-pip-chill
     - dbdt/2023-05-26-restapi-plural-name
     - dbdt/2023-05-26-gcp-mysql-connnect
+    - dbdt/2023-05-27-modify-dockerfile-after-added-mysql
+    - dbdt/2023-05-27-cloud-run-CD
