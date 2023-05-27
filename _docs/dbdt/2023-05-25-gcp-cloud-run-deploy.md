@@ -41,7 +41,7 @@ COPY . ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 ENV PORT 8080
-CMD exec uvicorn main:app --port ${PORT} --workers 1
+CMD exec uvicorn main:app --host 0.0.0.0 --port=${PORT}
 ```
 
 #### 로컬에서 Dockerfile 실행하기
