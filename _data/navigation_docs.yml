@@ -42,3 +42,4 @@
     - dbdt/2023-05-26-gcp-mysql-connnect
     - dbdt/2023-05-27-modify-dockerfile-after-added-mysql
     - dbdt/2023-05-27-cloud-run-CD
+    - dbdt/2023-05-27-docker-cache
