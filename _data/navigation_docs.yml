@@ -50,3 +50,4 @@
     - dbdt/2023-06-06-hashed-password
     - dbdt/2023-06-07-insert-user
     - dbdt/2023-06-07-use-alembic
+    - dbdt/2023-06-08-login-logic
