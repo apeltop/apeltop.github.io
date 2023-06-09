@@ -51,3 +51,4 @@
     - dbdt/2023-06-07-insert-user
     - dbdt/2023-06-07-use-alembic
     - dbdt/2023-06-08-login-logic
+    - dbdt/2023-06-09-verify-email-logic
