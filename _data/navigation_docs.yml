@@ -55,3 +55,4 @@
     - dbdt/2023-06-11-refactoring-faker-to-module
     - dbdt/2023-06-11-refactoring-add-api-prefix
     - dbdt/2023-06-11-refactoring-create-router
+    - dbdt/2023-06-13-create-jwt-token
