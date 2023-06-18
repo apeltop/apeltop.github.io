@@ -3,6 +3,7 @@
     - ncloud-sourcepipeline/2023-06-18-setup-egov
     - ncloud-sourcepipeline/2023-06-13-create-server-1
     - ncloud-sourcepipeline/2023-06-18-create-server-2
+    - ncloud-sourcepipeline/2023-06-18-egov-background
 - title: Selenium 복권 구매 자동화 만들어보기
   docs:
     - lotto-automation/2022-05-16-1-open-browser
