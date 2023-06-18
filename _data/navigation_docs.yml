@@ -1,5 +1,6 @@
 - title : NCloud LB & SourcePipeline 구축하기
   docs:
+    - ncloud-sourcepipeline/2023-06-18-setup-egov
     - ncloud-sourcepipeline/2023-06-13-create-server-1
 - title: Selenium 복권 구매 자동화 만들어보기
   docs:

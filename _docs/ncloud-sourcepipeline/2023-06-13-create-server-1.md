@@ -227,7 +227,7 @@ Zone 은 선택할 수 있지만 기본값으로 설정이 되어있고 적용 �
 
 그 후 공인 IP 뒤에 8080인 호스트 뒤에 /simple_info.do 를 호출하면 내부 IP 와 UUID 를 확인할 수 있다.
 
-![2-31.png](/assets/img/ncloud-sourcepipeline/2-31.png)
+![2-2.png](/assets/img/ncloud-sourcepipeline/2-2.png)
 
 
 
