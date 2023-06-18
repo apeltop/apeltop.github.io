@@ -44,6 +44,8 @@ egovframework.com.~ 처럼 전자정부프레임워크에서 제공하는 컴포
 
 이름에서 유추할 수 있듯이 eGovFrame Boot Web Project 는 Spring Boot 기반으로 만들어진 프로젝트이다.
 
+위 과정을 생략하고 초기 프로젝트를 다운로드 받기를 원한다면 필자가 만들어둔 [simple-egov-boot](https://github.com/apeltop/simple-egov-boot/tree/674321867ecb14c7349fcd6817e8016d8f45bfaf) 에 들어가 다운로드 받으면 된다.
+
 ### 정보 반환하는 컨트롤러 만들기
 필자는 src/main/java/egovframework/sample 패키지를 만들고 **SimpleInfoController.java** 파일을 추가하였다.
 그 후 코드를 추가해준다.
