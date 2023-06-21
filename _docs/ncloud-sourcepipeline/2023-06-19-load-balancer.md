@@ -10,9 +10,6 @@ comments: true
 ## 목표
 `로드 밸런서를 사용해 서버 2대에 나누어 처리하도록 하기`
 
-
-
-
 ## 만들기
 ### Load Balancer 란
 ![5-1.png](/assets/img/ncloud-sourcepipeline/5-1.png)
@@ -118,6 +115,11 @@ server1, server2 모두 적용 서버로 옮기어준다.
 **로드밸런서 상태 확인**을 클릭하면 아래와 같이 서버포트, L7 Health Check 등 여러 정보를 확인할 수 있다.
 
 ![5-9.png](/assets/img/ncloud-sourcepipeline/5-9.png)
+
+여기서 만든 예제는 Classic 기반이라 subnet 정보가 없다. VPC 기반일 경우 subnet 정보도 확인할 수 있다.
+subnet 정보를 통해 ACG 를 설정하는 것이 좋다. 외부에서는 server1, server2 에 접속할 수 없고 LB 를 통해서만 접근할 수 있도록 하기 위함이다.
+
+해당 글은 MANVSCLOUD, [2-1. [NCLOUD] 네이버 클라우드에서의 보안 – SERVER (ACG)](https://manvscloud.com/?p=859) 를 참고하면 좋다.
 
 ## 로드밸런서 테스트
 로드밸런서의 역할과 동작을 확인해보려 한다.
