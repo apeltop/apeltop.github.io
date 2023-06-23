@@ -1,7 +1,7 @@
 ---
 title: SourceDeploy 를 통해 배포하기
 layout: doc
-subtitle: 특정 브랜치에 커밋이 될 경우 SourceDeploy 를 통해 배포되도록 하기
+subtitle: SourceDeploy 를 통해 dev & real stage 에 따라 배포되도록 하기
 author: sunshine@ptokos.com
 tags: [dbdt]
 comments: true
