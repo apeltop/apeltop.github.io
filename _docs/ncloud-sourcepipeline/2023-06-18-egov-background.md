@@ -57,7 +57,7 @@ nohup 의 출력과 관련해서는 [쉽게 설명한 nohup 과 &(백그라운�
 아래 구문을 실행하면 sample_webapp.jar 가 백그라운드로 실행된다.
 
 ```bash
-nohup java -jar sample_webapp.jar &
+nohup java -jar /root/sampleapp/sample_webapp.jar &
 ```
 
 ### shutdown.sh
@@ -76,6 +76,9 @@ grep -v grep 을 추가한 이유는 grep sample_webapp.jar 을 실행하면 자
 (base) apeltop% ps -ef | grep sample_webapp.jar
   501 44013     1   0 10:14PM ttys008    0:09.25 /usr/bin/java -jar ../target/sample_webapp.jar
   501 44027 37450   0 10:14PM ttys008    0:00.00 grep sample_webapp.jar
+```
+
+```bash
 (base) apeltopscript % ps -ef | grep sample_webapp.jar | grep -v grep 
   501 44013     1   0 10:14PM ttys008    0:09.58 /usr/bin/java -jar ../target/sample_webapp.jar
 ```
