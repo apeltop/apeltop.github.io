@@ -29,6 +29,16 @@ comments: true
 - [SourceDeploy 를 통해 배포하기](/docs/ncloud-sourcepipeline/2023-06-23-source-deploy/)
 - [SourcePipeline 을 통해 CI/CD 통합 관리하기](/docs/ncloud-sourcepipeline/2023-06-24-source-pipeline/)
 
+예제에서 사용한 키워드를 간략하게 하면 다음과 같다.
+
+- Server
+- Server Image
+- Load Balancer
+- SourceCommit
+- SourceBuild
+- SourceDeploy
+- SourcePipeline
+
 ## 예제에 필요한 자료
 각 포스팅의 예제를 따라하면 다 만들고 구축해볼 수 있으나 소스 코드를 직접 만들지 않고 클라우드 관련만 빠르게 따라해보고 싶은 경우가 있을 수 있기에 자료를 올려놓았다.
 소스 코드 빌드 과정 등이 있기 때문에 소스 코드를 직접 만들어야하는데 이 또한 따라하지 않고 싶다면 밑 Git Repository 에 들어가 fork 한 뒤 사용하면 된다.
