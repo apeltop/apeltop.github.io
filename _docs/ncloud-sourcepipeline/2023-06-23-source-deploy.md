@@ -72,7 +72,12 @@ Developer Tools > SourceDeploy 에 들어간다. 그 후 **배포 프로젝트 �
 - 파일 배포
 - 배포 후 실행
 
-파일 배포의 경우 input 의 placeholder 를 보면 **sample_webapp.jar.zip** 을 기준으로 작성하라고 나와있다. 그러기에 / 만 입력하였다.
+파일 배포의 경우 input 의 placeholder 를 보면 **sample_webapp.jar.zip** 을 기준으로 작성하라고 나와있다. 그러기에 **target/sample_webapp.jar** 를 입력하였다.
+SourceBuild 를 통해 생성된 sample_webapp.jar.zip 을 다운로드 받아보면 아래와 같이 저장되어있기 때문이다.
+
+![8-35.png](/assets/img/ncloud-sourcepipeline/8-35.png)
+
+파일 배포를 말로 다시 풀면 sample_webapp.jar.zip 파일의 압축을 풀어 target/sampel_webapp.jar 를 /root/sampleapp 폴더에 저장하라는 것이다.
 
 배포 후 실행은 서버가 종료하고 시작되도록 하였다. 실제 현업이라면 restart.sh 를 만들어서 관리하는게 더 나을 것이다.
 
@@ -116,7 +121,7 @@ dev stage 를 만들었으니 real stage 를 만들어보자. 예제에서는 st
 배포 전략 설정, 배포 파일 설정은 이전과 동일하기에 넘어갔다.
 배포 명령어 설정 또한 같다.
 
-![8-33.png](/assets/img/ncloud-sourcepipeline/8-33.png)
+![8-33.png](/assets/img/ncloud-sourcepipeline/8-11.png)
 
 설정한 정보가 맞다면 **배포 시나리오 생성**을 진행한다.
 
