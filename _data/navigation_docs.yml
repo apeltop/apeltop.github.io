@@ -8,6 +8,7 @@
     - ncloud-sourcepipeline/2023-06-21-source-commit
     - ncloud-sourcepipeline/2023-06-22-source-build
     - ncloud-sourcepipeline/2023-06-23-source-deploy
+    - ncloud-sourcepipeline/2023-06-24-source-pipeline
 - title: Selenium 복권 구매 자동화 만들어보기
   docs:
     - lotto-automation/2022-05-16-1-open-browser
