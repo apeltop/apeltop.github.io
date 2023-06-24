@@ -75,9 +75,9 @@ ssh-keygen
 
 그럼 키를 만들 위치와 암호를 입력해야하는데 암호 없이 진행하였다.
 
-키 위치는 /Users/`사용자`/.ssh/id_sourcecoomit 로 입력하였다.
+키 위치는 **/Users/`사용자`/.ssh/id_sourcecoomit** 로 입력하였다.
 
-그러면 키 위치에 id_sourcecoomit 과 id_sourcecoomit.pub 파일이 생성된다.
+그러면 키 위치에 **id_sourcecoomit** 과 **id_sourcecoomit.pub** 파일이 생성된다.
 그 중 id_sourcecoomit.pub 파일을 열어서 내용을 복사하여 붙여넣는다.
 
 ![6-12.png](/assets/img/ncloud-sourcepipeline/6-12.png)

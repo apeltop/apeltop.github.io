@@ -210,7 +210,15 @@ request error
 
 
 ## 테스트
-v1 을 v2 로 변경하고 Commit 과 Push 를 진행하면 파이프라인이 가동이 된다.
+v 를 v1 -> v2 로 변경하고 Commit 과 Push 를 진행하면 파이프라인이 가동이 된다. 
+
+```java
+private final String v = "v1";
+```
+
+```java
+private final String v = "v2";
+```
 
 ![9-28.png](/assets/img/ncloud-sourcepipeline/9-28.png)
 
