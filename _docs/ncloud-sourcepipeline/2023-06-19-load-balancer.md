@@ -3,7 +3,7 @@ title: 로드 밸런서 구축
 layout: doc
 subtitle: server1 과 server2 에 reqeust 를 분배하도록 하기
 author: sunshine@ptokos.com
-tags: [dbdt]
+tags: [ncloud]
 comments: true
 ---
 

@@ -3,7 +3,7 @@ title: eGov 애플리케이션 백그라운드 실행
 layout: doc
 subtitle: SSH 세션이 끊겨도 서버는 실행되도록 하기
 author: sunshine@ptokos.com
-tags: [ dbdt ]
+tags: [ ncloud ]
 comments: true
 ---
 

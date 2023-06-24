@@ -3,7 +3,7 @@ title: Server 1 만들기
 layout: doc
 subtitle: NCloud 에서 서버 1개 만든 후 Spring Boot 실행하기
 author: sunshine@ptokos.com
-tags: [dbdt]
+tags: [ncloud]
 comments: true
 ---
 

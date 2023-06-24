@@ -3,7 +3,7 @@ title: SourceDeploy 를 통해 배포하기
 layout: doc
 subtitle: SourceDeploy 를 통해 dev & real stage 에 따라 배포되도록 하기
 author: sunshine@ptokos.com
-tags: [dbdt]
+tags: [ncloud]
 comments: true
 ---
 

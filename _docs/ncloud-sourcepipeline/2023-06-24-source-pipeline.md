@@ -3,7 +3,7 @@ title: SourcePipeline 을 통해 CI/CD 통합 관리하기
 layout: doc
 subtitle: SourceCommit 에 git repository 를 연동하기
 author: sunshine@ptokos.com
-tags: [dbdt]
+tags: [ncloud]
 comments: true
 ---
 

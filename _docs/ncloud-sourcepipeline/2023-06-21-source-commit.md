@@ -3,7 +3,7 @@ title: SourceCommit 에 Git 연동
 layout: doc
 subtitle: SourceCommit 에 git repository 를 연동하기
 author: sunshine@ptokos.com
-tags: [dbdt]
+tags: [ncloud]
 comments: true
 ---
 

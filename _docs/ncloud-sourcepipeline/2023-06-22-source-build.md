@@ -3,7 +3,7 @@ title: SourceBuild 를 통해 배포 파일 생성
 layout: doc
 subtitle: SourceBuild 를 통해 배포인 jar 파일 생성
 author: sunshine@ptokos.com
-tags: [dbdt]
+tags: [ncloud]
 comments: true
 ---
 

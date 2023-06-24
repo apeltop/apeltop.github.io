@@ -3,7 +3,7 @@ title: eGov 프로젝트 구축하기
 layout: doc
 subtitle: 내부 ip 와 버전을 출력하는 간단한 프로젝트를 구축하기
 author: sunshine@ptokos.com
-tags: [dbdt]
+tags: [ncloud]
 comments: true
 ---
 
