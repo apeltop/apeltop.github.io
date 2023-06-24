@@ -185,13 +185,19 @@ import requests
 
 LB_IP1 = 'http://slb-17885866.ncloudslb.com'
 
+lb_to_server1_count = 0
 for i in range(1000):
-    res_LB = requests.get(f'{LB_IP1}/simple_info.do')
-    print(i, res_LB.text)
-    if res_LB.text.find('10.41.151.114'):
-        lb_destination_server1 += 1
+    try:
+        sleep(1)
 
-print(lb_destination_server1)
+        res_LB = requests.get(f'{LB_IP1}/simple_info.do', timeout=3)
+        print(i, res_LB.text)
+        if res_LB.text.find('10.41.151.114'):
+            lb_to_server1_count += 1
+    except Exception as e:
+        print('request error')
+
+print(lb_to_server1_count)
 ```
 
 ```bash
