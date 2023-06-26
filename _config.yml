@@ -89,6 +89,9 @@ footer:
 #disqus:
 #    shortname: apeltop     # 1234
 
+github:
+    repo:           apeltop/apeltop.github.io
+
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics: G-8F5Z3BV9DE
 
