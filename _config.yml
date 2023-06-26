@@ -86,8 +86,8 @@ footer:
     copyright:      Made by apeltop.
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
-disqus:
-    shortname: apeltop     # 1234
+#disqus:
+#    shortname: apeltop     # 1234
 
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics: G-8F5Z3BV9DE
