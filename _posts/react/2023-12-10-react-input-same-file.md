@@ -113,7 +113,15 @@ key 를 업데이트하면서 re-rendering 을 시켜보니 문제가 해결되�
 
 해결 방법은 간단했다. input 의 value 의 값을 초기화해주면 된다.
 
-값을 초기화해야하는 코드에 이 코드를 추가하여 초기화를 진행해주면 된다. 
+값을 초기화해야하는 코드에 이 코드를 추가하여 초기화를 진행해주면 된다.
+```typescript
+const inputRef = React.useRef<HTMLInputElement>(null);
+
+...
+
+<input ref={inputRef} ... />
+````
+
 ```typescript
 if (inputRef.current?.files) {
     inputRef.current.value = '';
