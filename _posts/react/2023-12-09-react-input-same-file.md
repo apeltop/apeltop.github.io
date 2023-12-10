@@ -18,7 +18,7 @@ input type="file" 일 때 같은 파일을 선택하면 onChange 가 발생하�
 
 ### 기존 코드
 
-```typescript
+```tsx
 import React, {useState} from "react";
 import {PhotoIcon} from "@heroicons/react/24/solid";
 import ImagePreviewAndCancelable from "@/components/ImagePreviewAndCancelable";
@@ -86,7 +86,7 @@ export default DragAndDropInput
 
 그래서 key 값을 계속해서 업데이트함으로 강제 re-rendering 을 시켜보았다.
 
-```typescript
+```tsx
     ...
     const [key, setKey] = useState(0);
 
