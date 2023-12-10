@@ -58,6 +58,10 @@ export default SelectImageInput
 미리보기의 경우 input[type='file'] 의 onChange 이벤트로 전달 받을 것이기 때문에 FileList 타입으로 전달 받는다.
 
 #### 코드
+FileReader 의 onload 이벤트를 사용하여 파일을 읽어온다.
+함수를 보면 onload 와 onloadend 가 있다.
+MDN 문서를 보면 [onload](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/load_event) 는 파일 읽기가 성공적으로 끝났을 때 호출이 된다.
+onloadend 는 [loadend](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/loadend_event) 와 비슷하지만 파일 읽기가 성공 & 실패 모두 호출이 된다.
 
 ```tsx
 import React, {useEffect, useState} from "react";
@@ -125,7 +129,7 @@ export default ImagePreviewAndCancelable;
 ### 최종 코드
 ImagePreviewAndCancelable 컴포넌트를 사용하며 이벤트 연결을 해주면 된다.
 
-`inputRef.current.value = ''` 코드가 왜 존재하는지 궁금하다면 [React input 에 같은 파일 업로드 시 onChange 가 발생하지 않는 문제 해결](/react-input-same-file/) 글을 참고하면 된다.  
+`inputRef.current.value = ''` 코드가 왜 존재하는지 궁금하다면 [React input 에 같은 파일 업로드 시 onChange 가 발생하지 않는 문제 해결](/react-input-same-file/) 글을 참고하면 된다.
 
 ```tsx
 import React, {useState} from "react";
