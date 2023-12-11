@@ -17,6 +17,8 @@ input type="file" 일 때 같은 파일을 선택하면 onChange 가 발생하�
 ![react-input-same-file-2.gif](/assets/img/react/react-input-same-file-2.gif)
 
 ### 기존 코드
+`[tailwindcss](https://tailwindui.com) 를 사용하였습니다`
+
 
 ```tsx
 import React, {useState} from "react";

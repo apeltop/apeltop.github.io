@@ -20,6 +20,8 @@ categories: [react, tailwindcss, typescript]
 ![react-image-preview-from-input.png](/assets/img/react/react-image-preview-from-input-2.png)
 
 #### 코드
+`[tailwindcss](https://tailwindui.com) 를 사용하였습니다`
+
 ```tsx
 import React from "react";
 import {PhotoIcon} from "@heroicons/react/24/solid";
