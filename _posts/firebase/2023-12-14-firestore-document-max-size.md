@@ -1,7 +1,7 @@
 ---
 title: firestore document 최대 크기 알아보기
 author: sunshine@ptokos.com
-categories: [javascript]
+categories: [javascript, firebase]
 ---
 
 firestore 는 document database 이다. document 는 json 형태로 저장된다. 
