@@ -10,9 +10,12 @@
     - ncloud-sourcepipeline/2023-06-23-source-deploy
     - ncloud-sourcepipeline/2023-06-24-source-pipeline
     - ncloud-sourcepipeline/2023-06-24-ncloud-cicd-integrated
+
 - title : tech collection 서비스 성능 개선하기
   docs:
     - techcollection-performance-improve/2024-02-01-locust
+    - techcollection-performance-improve/2024-02-02-jpa-batch-size
+
 - title: Selenium 복권 구매 자동화 만들어보기
   docs:
     - lotto-automation/2022-05-16-1-open-browser
