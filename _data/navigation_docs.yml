@@ -15,6 +15,7 @@
   docs:
     - techcollection-performance-improve/2024-02-01-locust
     - techcollection-performance-improve/2024-02-02-jpa-batch-size
+    - techcollection-performance-improve/2024-02-03-db-scaleup
 
 - title: Selenium 복권 구매 자동화 만들어보기
   docs:
