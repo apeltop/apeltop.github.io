@@ -11,6 +11,15 @@ comments: true
 ## 기존 상황
 동접자 100명까지 늘려가며 성능 테스트를 진행해보자.
 
+### 테스트 환경
+#### Server
+로컬에서 진행하였다. 
+로컬에서 진행 후 배포한 서버에 대한 성능 테스트를 진행하려한다.
+
+#### DB
+- vCPUs: 1
+- Memory: 1.7 GB
+
 ![techcollection-performance-improve-2-1.png](/assets/img/techcollection-performance-improve/2-1.png)
 
 아래 차트를 통해 알 수 있는 내용을 간략히 추려보자.
