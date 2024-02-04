@@ -16,6 +16,7 @@
     - techcollection-performance-improve/2024-02-01-locust
     - techcollection-performance-improve/2024-02-02-jpa-batch-size
     - techcollection-performance-improve/2024-02-03-db-scaleup
+    - techcollection-performance-improve/2024-02-04-data-cache
 
 - title: Selenium 복권 구매 자동화 만들어보기
   docs:
@@ -39,9 +40,9 @@
 - title: 책 리뷰
   docs:
     - book-review/the-art-of-readable-code
-    - book-review/90s-is-coming
-    - book-review/cursed-bunny
-    - book-review/pretty-good-happy-ending
+#    - book-review/90s-is-coming
+#    - book-review/cursed-bunny
+#    - book-review/pretty-good-happy-ending
 
 - title: 블로그 챌린지
   docs:
