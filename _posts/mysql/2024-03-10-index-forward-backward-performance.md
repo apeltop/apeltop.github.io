@@ -116,7 +116,8 @@ infimum 과 supremum 은 system records 이다. 이 둘은 index page 에서 고
 Page 안에 레코드는 **Single linked list** 로 연결되어 있다. 그렇기에 Backward index scan 일 때 느리다. 
 다시 말해 같은 레벨의 page 는 double linked list 로 연결되어 있지만 page 안에 레코드는 single linked list 로 연결되어 있다.
 
-Kakao Tech 블로그에서 matt.lee 의 MySQL Ascending index vs Descending index 글을 보면 이러한 차이로 약 **30% 정도의 차이**가 난다고 한다.   
+Kakao Tech 블로그에서 matt.lee 의 MySQL Ascending index vs Descending index 글을 보면 이러한 차이로 크게는 약 **30% 정도의 차이**가 난다고 한다.
+index 가 앞, 뒤에 위치한 데이터를 대상으로 조회를 할 경우에는 CPU 사용량이 약 44% 정도 차이가 난다고 한다.
 
 ![Page Directory Structure](https://i0.wp.com/jcole.us/blog/files/innodb/20130114/50dpi/B_Tree_Page_Directory_Structure.png)
 
