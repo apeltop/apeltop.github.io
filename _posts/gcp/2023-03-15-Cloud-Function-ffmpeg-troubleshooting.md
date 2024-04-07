@@ -1,7 +1,7 @@
 ---
 title: GCP Cloud Function ffmpeg troubleshooting
 author: sunshine@ptokos.com
-categories: [expo]
+categories: [gcp]
 ---
 
 ## 해결 방법
