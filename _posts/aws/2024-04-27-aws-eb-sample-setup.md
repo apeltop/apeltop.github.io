@@ -77,7 +77,8 @@ URL 을 들어가보면 Elastic Beanstalk 의 화면이 나온다.
 
 ![Role 생성하기](/assets/img/aws/aws-eb-sample-setup-11.png)
 
-
+#### 참고 문서
+- Elastic Beanstalk instance profile https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts-roles-instance.html
 
 
 
