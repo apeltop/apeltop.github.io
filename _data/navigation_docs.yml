@@ -11,6 +11,12 @@
     - ncloud-sourcepipeline/2023-06-24-source-pipeline
     - ncloud-sourcepipeline/2023-06-24-ncloud-cicd-integrated
 
+- title: Data 분석 기초
+  docs:
+   - data/2025-05-08-shift
+   - data/2025-05-08-pct_change
+   - data/2025-05-08-cumprod
+
 - title : tech collection 서비스 성능 개선하기
   docs:
     - techcollection-performance-improve/2024-02-01-locust
