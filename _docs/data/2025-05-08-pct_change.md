@@ -7,7 +7,7 @@ tags: [DATA, pandas]
 comments: true
 ---
 
-### shift 소개
+### pct_change 소개
 pct_change 는 **"전일 대비 수익률 (Percentage Change)"** 를 자동으로 계산하는 Pandas의 내장 함수입니다.
 이 함수는 현재 값이 이전 값에 비해 얼마나 변화했는지를 백분율로 나타내는 데 사용됩니다.
 
