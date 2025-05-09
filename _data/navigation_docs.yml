@@ -16,6 +16,9 @@
    - data/2025-05-08-shift
    - data/2025-05-08-pct_change
    - data/2025-05-08-cumprod
+   - data/2025-05-09-agg
+   - data/2025-05-09-groupby
+   - data/2025-05-09-sort_values
 
 - title : tech collection 서비스 성능 개선하기
   docs:
