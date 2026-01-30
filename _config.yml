@@ -109,12 +109,9 @@ markdown:           kramdown
 highlighter:        rouge
 
 plugins:
-  - jekyll
-  - kramdown-parser-gfm
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist
-  - jekyll-avatar
   - jekyll-sitemap
 exclude:
   - Gemfile
