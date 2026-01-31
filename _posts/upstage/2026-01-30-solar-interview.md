@@ -8,7 +8,7 @@ categories: [upstage]
 
 이 예제에서 파이썬 코드가 있지만 목표는 코드를 이해하는 것이 아닌 흐름을 이해하는 것입니다.
 이유는 AI 가 발전함에 따라 중요한 것은 코드를 이해하는 것이 아닌 흐름을 이해하는 것이라고 생각하기 때문입니다.
-그러므로 이 예제를 통해 어떤 식으로 프롬포트를 작성하여 우리가 원하는 결과를 얻을 수 있는지 이해하는 것이 중요합니다.
+그러므로 이 예제를 통해 어떤 식으로 프롬프트를 작성하여 우리가 원하는 결과를 얻을 수 있는지 이해하는 것이 중요합니다.
 
 예제를 진행하면서 코드나 흐름이 이해가 어려운 부분은 GPT 를 통해 설명을 요청하여 이해하려고 하면 좋을 것 같습니다 :) 
 
@@ -27,7 +27,7 @@ categories: [upstage]
 9. [Step 5: 면접관 페르소나 설계하기](#9-step-5-면접관-페르소나-설계하기)
 10. [Step 6: 대화 관리자 구현하기](#10-step-6-대화-관리자-구현하기)
 11. [Step 7: 면접 시뮬레이션 실행하기](#11-step-7-면접-시뮬레이션-실행하기)
-12. [전체 코드 실행해보기](#12-전체-코드-실행해보기)
+12. [단계별 실행 가이드](#12-단계별-실행-가이드)
 13. [마무리 및 확장 아이디어](#13-마무리-및-확장-아이디어)
 
 ---
@@ -83,15 +83,15 @@ Upstage는 다양한 AI API 서비스를 제공합니다:
 ├────────────────────────┬───────────────────────────┬─────────────────────┤
 │       Solar LLM        │       Document AI         │    기타 서비스         │
 ├────────────────────────┼───────────────────────────┼─────────────────────┤
-│ • Chat                 │ • Document Parse          │ • Embedding         │
-│ • Completion           │ • Document OCR            │                     │
-│ • Reasoning            │ • Universal Extraction    │                     │
-│ • Function Call        │ • Prebuilt Extraction     │                     │
-│ • Structured Outputs   │ • Document Classification │                     │
+│ • Chat completions     │ • Document Parse          │ • Embedding         │
+│                        │ • Document OCR            │                     │
+│                        │ • Universal Extraction    │                     │
+│                        │ • Prebuilt Extraction     │                     │
+│                        │ • Document Classification │                     │
 └────────────────────────┴───────────────────────────┴─────────────────────┘
 ```
 
-여러 제품들이 있는 것을 볼 수 잇습니다.
+여러 제품들이 있는 것을 볼 수 있습니다.
 특별한게 눈에 보이는데 **Syn Pro** 는 일본어 특화 모델입니다! 
 
 ![solar-interview7.png](/assets/img/upstage/solar-interview7.png)
@@ -130,7 +130,7 @@ messages = [
 ]
 ```
 
-> TMI 글을 쓰는 시점인 2026년 1월 30일 기준으로 업스테이지는 독자 AI 파운데이션 모델 프로젝트에서 1차 통과하여 2차 진출을 성공 했습니다.
+> TMI 글을 쓰는 시점인 2026년 1월 30일 기준으로 업스테이지는 독자 AI 파운데이션 모델 프로젝트에서 1차 통과하여 2차 진출에 성공했습니다.
 
 **2. Structured Outputs (구조화된 출력)**
 
@@ -196,13 +196,13 @@ extra_body={ "reasoning_effort": "medium" }
 | **빠른 응답 속도** | 효율적인 모델 구조로 실시간 대화에 적합 |
 | **합리적인 가격** | 토큰당 비용이 경쟁력 있음 |
 | **OpenAI 호환** | 기존 OpenAI SDK를 그대로 사용 가능 |
-| **최고 수즌의 Document Parse API** | 문서 파싱 정확도가 높습니다. |
+| **최고 수준의 Document Parse API** | 문서 파싱 정확도가 높습니다. |
 
 ### Document Parse API 상세 소개
 
 #### Document Parse란?
 
-Document Parse는 PDF, 이미지, 스캔 문서 등에서 텍스트와 구조를 추출하는 API입니다. 단순 OCR을 넘어 **문서의 레이아웃과 구조**까지 이해합니다.  
+Document Parse는 PDF, 이미지, 스캔 문서 등에서 텍스트와 구조를 추출하는 API입니다. 단순 OCR(Optical Character Recognition, 광학 문자 인식)을 넘어 **문서의 레이아웃과 구조**까지 이해합니다.  
 [공식 문서: Document Parsing 자세히 보기](https://console.upstage.ai/docs/capabilities/digitize/document-parsing)
 
 #### 주요 기능
@@ -962,7 +962,7 @@ Python, FastAPI, Django, PostgreSQL, Redis, Docker, Kubernetes, AWS
 ## 9. Step 5: 면접관 페르소나 설계하기
 
 이제 AI 면접관의 성격을 정의할 차례입니다. 우리는 4가지 유형의 면접관을 만들 것입니다.
-사실 저는 이 튜토리얼을 작성하면서 임원진, 테크 리드와 논리적인, 파고드는 유형 등을 추가해서 더 다양한 면접관을 만들어서 사용해보았습니다. 이렇게 되면 프롬포트가 너무 길어져 가독성이 떨어지기 때문에 4가지 유형만 선택하였습니다.
+사실 저는 이 튜토리얼을 작성하면서 임원진, 테크 리드와 논리적인, 파고드는 유형 등을 추가해서 더 다양한 면접관을 만들어서 사용해보았습니다. 이렇게 되면 프롬프트가 너무 길어져 가독성이 떨어지기 때문에 4가지 유형만 선택하였습니다.
 
 ### 면접관 유형 매트릭스
 
@@ -1348,9 +1348,9 @@ def interactive_interview(role: str = "technical", style: str = "comfortable"):
 
 ---
 
-## 12. 전체 코드 실행해보기
+## 12. 단계별 실행 가이드
 
-지금까지 구현한 모든 코드를 순서대로 실행해봅시다.
+지금까지 구현한 모든 코드를 순서대로 실행해봅시다. 아래 코드는 위에서 정의한 모든 함수와 클래스가 이미 실행된 상태에서 동작합니다.
 
 ### 1단계: 환경 설정
 
