@@ -5,6 +5,10 @@ on:
     branches: ["master"]
   workflow_dispatch:
 
+# Force JS actions still bundled on Node 20 (configure-pages, upload-artifact) to run on Node 24.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 permissions:
   contents: read
   pages: write
